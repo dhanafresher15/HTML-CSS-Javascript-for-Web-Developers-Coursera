@@ -1,0 +1,78 @@
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 50px;
+	text-align: center;
+	font-size: 300%;
+}
+
+section {
+	position: relative;
+	padding: 15px;
+	float: left;
+}
+
+p {
+	position: relative;
+	margin: 0px;
+}
+
+section div {
+	background-color: #999999;
+	border: 1px solid black;
+}
+
+.banner {
+	float: right;
+	padding: 10px;
+	width: 45%;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 150%;
+}
+
+p.one {
+	background-color: #db7093;
+}
+
+p.two {
+	background-color: maroon;
+	color: white
+}
+
+p.three {
+	background-color: #dbc170;
+}
+
+.text {
+	padding: 15px;
+	clear: right;
+	height: 220px;
+	font-size: 125%;
+	font-family: Comic Sans MS;
+}
+
+@media (min-width: 992px) {
+  .section1, .section2, .section3{
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section1, .section2{
+    width: 50%;
+  }
+  .section3{
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section1, .section2, .section3{
+    width: 100%;
+  }
+}
